@@ -134,7 +134,7 @@ const AddBill = () => {
 
 
                     <div className="item ">
-                        <span className="text-sm text-mezechBlue font-bold">Expense Category</span>
+                        <span className="text-xs text-mezechBlue font-bold">Expense Category</span>
                         <div class="flex">
                         <div class="mb-3 sm:w-full mt-2 border-mezechBlue py-2 border-b-0 border-l-0 border-r-0 border-t-0 lg:border-t-2">
                             <select class="form-select appearance-none
