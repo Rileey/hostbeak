@@ -12,7 +12,9 @@ module.exports = {
       'mezechBlue': '#272262',
       'error': '#EF4444',
       'sub': '#282C40' ,
-      'audioBlue': '#081494'
+      'audioBlue': '#081494',
+      'bgGreen': '#D9FCEA',
+      'jGreen': '#39DA8A'
     },
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],

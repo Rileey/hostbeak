@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './index.css';
 import AddBill from './pages/addBill';
 import SignUp from './pages/signup';
+import Report from './pages/report'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,7 +14,7 @@ ReactDOM.render(
       <Routes >
         <Route path="/" element={<SignUp />} />
         <Route path="/bill" element={<AddBill />} />
-        {/* <Route path="/reports" element={<Reports />} /> */}
+        <Route path="/report" element={<Report />} />
       </Routes>
     </BrowserRouter>  
   </React.StrictMode>,
