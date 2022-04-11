@@ -146,7 +146,7 @@ const SideBar = () => {
             </div>
             <hr className="mx-6"/>
             <div className="flex flex-col bg-background items-start ml-2 lg:items-center lg:ml-0 w-fit md:w-72lg:w-72 gap-6 mb-20">
-                <button className="bg-audioBlue flex flex-row text-white items-center justify-around w-40 lg:w-56 lg:px-2 py-2 rounded-lg">
+                <button className="bg-audioBlue flex flex-row text-white items-center justify-around w-40 ml-2 lg:ml-8 lg:w-56 lg:px-2 py-2  rounded-lg">
                     <img src={card} alt="" className="h-2 lg:h-6" />
                     <span className="text-xs lg:text-sm">Accept Payments</span>    
                 </button>
