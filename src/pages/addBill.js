@@ -100,97 +100,6 @@ const AddBill = () => {
                 </div>
                 
             </div>
-            {/* <div className="border-solid border border-sub/30 px-2 py-2 mt-12 ml-12 mr-32">
-                <div className="grid grid-cols-7 grid-flow-row border-mezechBlue py-2 border-b-2 border-l-0 border-r-0 border-t-0">
-                    <span className="text-sm text-mezechBlue font-bold">Item</span>
-                    <span className="text-sm text-mezechBlue font-bold">Expense Category</span>
-                    <span className="text-sm text-mezechBlue font-bold">Description</span>
-                    <span className="text-sm text-mezechBlue font-bold">Qty</span>
-                    <span className="text-sm text-mezechBlue font-bold">Price</span>
-                    <span className="text-sm text-mezechBlue font-bold">Tax</span>
-                    <span className="text-sm text-mezechBlue font-bold">Amount</span>
-                </div>
-                <div className="grid grid-cols-7 grid-flow-row py-2 border-sub/30 border border-l-0 border-r-0 border-t-0">
-                    <div class="flex">
-                        <div class="mb-3 sm:w-full mt-2">
-                            <select class="form-select appearance-none
-                            block
-                            w-24
-                            px-3
-                            py-1.5
-                            text-xs 
-                            font-light
-                            text-sub/30
-                            bg-white bg-clip-padding bg-no-repeat
-                            border border-solid border-gray-300
-                            rounded
-                            transition
-                            ease-in-out
-                            m-0
-                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
-                                <option selected>Choose</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="flex ">
-                        <div class="mb-3 sm:w-full mt-2">
-                            <select class="form-select appearance-none
-                            block
-                            w-24
-                            px-3
-                            py-1.5
-                            text-xs 
-                            font-light
-                            text-sub/30
-                            bg-white bg-clip-padding bg-no-repeat
-                            border border-solid border-gray-300
-                            rounded
-                            transition
-                            ease-in-out
-                            m-0
-                            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
-                                <option selected>Choose</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div className="flex flex-row items-center">
-                    <input type="text" className="text-xs border-solid h-8 border-sub/30 w-32 text-sub/30" name="" id="" />
-                    </div>
-
-                    <div className="flex flex-row items-center">
-                    <input type="number" className="text-xs border-solid h-8 border-sub/30 w-24 text-sub/30" name="" id="" />
-                    </div>
-                    
-                    <div className="flex flex-row items-center">
-                    <input type="number" className="text-xs border-solid h-8 border-sub/30 w-24 text-sub/30" name="" id="" />
-                    </div>
-
-                    <div className="flex flex-row items-center">
-                        <input type="text" className="text-xs border-solid h-8 border-sub/30 w-24 text-sub/30 mr-2" name="" id="" />
-                        <img src={edit} alt="" />
-                    </div>
-
-                    <div className="flex flex-row items-center justify-between">
-                        <span>N0.00</span>
-                        <img src={trash} alt="" className="hover:cursor-pointer"/>
-                    </div>
-                </div>
-                <div className="flex flex-col items-end mr-24 h-16 justify-between py-2">
-                    <span className="text-xs text-black">Subtotal: N0.00</span>
-                    <span className="text-xs text-black">Total (NGN): N0.00</span>
-                </div>
-            </div> */}
-
-
-
             <div className="border-solid border border-sub/30 px-2 py-2 mt-12 ml-12 mr-6 lg:mr-32">
                 <div className="grid grid-cols-1 lg:grid-cols-7 grid-flow-row ">
                     <div className="item ">
@@ -277,7 +186,7 @@ const AddBill = () => {
                     <div className="item ">
                         <span className="text-sm text-mezechBlue font-bold">Tax</span>
                         <div className="flex flex-row mt-2 items-center border-mezechBlue py-2 border-b-0 border-l-0 border-r-0 border-t-0 lg:border-t-2">
-                            <input type="text" className="text-xs border-solid h-8 border-sub/30 w-full lg:w-32  text-sub/30" name="" id="" />
+                            <input type="text" className="text-xs border-solid h-8 border-sub/30 w-full lg:w-24  text-sub/30" name="" id="" />
                             <img src={edit} alt="" />
                         </div>
                     </div>
