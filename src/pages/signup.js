@@ -28,7 +28,7 @@ const SignUp = () => {
                         </div>
                         <div className="name flex flex-col">
                             <label className="text-md text-mezechBlue/60">Phone Number</label>
-                            <input className="text-mezechBlue font-medium py-1 px-0 outline-0 border-b-2 border-l-0 border-r-0 border-t-0" placeholder="Enter your phone number" type="text" name="" id="" />
+                            <input className="text-mezechBlue font-medium py-1 px-0 outline-0 border-b-2 border-l-0 border-r-0 border-t-0" placeholder="Enter your phone number" type="number" name="" id="" />
                         </div>
                         <div className="name flex flex-col">
                             <label className="text-md text-mezechBlue/60">Email Address</label>
